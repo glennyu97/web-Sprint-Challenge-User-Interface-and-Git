@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -66,9 +65,35 @@ p {
     line-height: 1.4;
 }
 
+#headerflex{
+    display:flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin-left: 15%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+#topnav{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.item{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.class{
+    vertical-align: text-bottom;
 }
 
 .top-content {
@@ -78,6 +103,11 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+#highway {
+    margin-bottom: 3%;
+}
+
 
 .top-content .text-container {
     width: 48%;
@@ -112,6 +142,55 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: #018080;
+}
+
+#box2{
+    background-color: #FFD701;
+}
+
+#box3{
+    background-color: #609EA0;
+}
+
+#box4{
+    background-color: #FF7F50;
+}
+
+#box5{
+    background-color: #DD153D;
+}
+
+#box6{
+    background-color: #238B22;
+}
+
+#box7{
+    background-color: #9932CD;
+}
+
+#box8{
+    background-color: #FF69B4;
+}
+
+#box9{
+    background-color: #4B0082;
+}
+
+#box10{
+    background-color: #1D91FF;
+}
+
+
+
+
+
+
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +222,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+.container-about-page{
+    margin-top: 3%;
+}
+
+#bigcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#flexbox1, #flexbox2, #flexbox3, #flexbox4{
+    width: 45%;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    align-items:flex-start;
+}
+
+button{
+    padding: 3% 5% 3% 5%;
+    margin: 3% 0% 3% 0%;
+    border-radius: 10px;
+}
+
+h3{
+    margin-top: 2%;
+}
+
+#end{
+    margin-bottom: 20px;
 }
